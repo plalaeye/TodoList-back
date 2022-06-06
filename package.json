@@ -1,0 +1,9 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Plyy <69999838+nutnicha-p@users.noreply.github.com>",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
