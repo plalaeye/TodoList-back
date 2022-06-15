@@ -1,6 +1,5 @@
+import Theme from './../enums/Theme'
 import mongoose from 'mongoose'
-import { TaskStatus } from '../enums/task-status'
-import { Theme } from '../enums/theme'
 import taskSchema from './Task'
 
 const usersSchema = new mongoose.Schema({
