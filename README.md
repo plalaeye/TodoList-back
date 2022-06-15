@@ -13,8 +13,6 @@ Next, run the development server:
 yarn start:dev
 ```
 
-Open [http://localhost:5000](http://localhost:5000) with your browser to see the result.
-
 ## Tech Stack
 - TypeScript
 - [Express](https://expressjs.com/)
