@@ -1,13 +1,29 @@
 {
   "name": "back",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "./src/index.ts",
   "author": "Plyy <69999838+nutnicha-p@users.noreply.github.com>",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.ts --files api/index.ts"
+  },
   "dependencies": {
+    "@types/cors": "^2.8.12",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.3.5"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "node": "^17.7.2",
+    "ts-node": "^10.8.1"
   },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.40",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.3"
   }
 }
